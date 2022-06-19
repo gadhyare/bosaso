@@ -1,0 +1,49 @@
+$bg-color: rgb(179, 11, 11);
+$font-color: #fff;
+$primary-color: rgb(1, 118, 153);
+$font-size: 20px;
+$dark-overly: rgba(0,0,0,0.7);
+
+
+body{
+    background:$bg-color;
+    color: $font-color;
+  
+}
+
+.navbar{
+    border-bottom: $primary-color 3px solid;
+    opacity: 0.8;
+}
+#home-section{
+    background: url('../img/bg.jpeg') no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    background-attachment: fixed;
+    .dark-overly{
+        background: $dark-overly;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 600px;
+    }
+    .home-inner{
+        padding-top: 120px;
+    }
+    .card-form{
+        opacity: 0.8;
+    }
+    .fa{
+        background-color: $font-color;
+        font-size: $font-size;
+        color: $primary-color;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
+ 
+#explore-section{
+    border-top: $primary-color 3px solid ;
+    border-bottom: $primary-color 3px solid ;
+}

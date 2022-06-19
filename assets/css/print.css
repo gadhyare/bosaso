@@ -1,0 +1,79 @@
+body{
+    background-color: #FFF !important;
+}
+@page {
+    size: A4;
+    margin: 5px auto;
+  }
+  @media print {
+    html, body {
+      width: 210mm;
+      height: 297mm;
+    }
+    /* ... the rest of the rules ... */
+  }
+
+  @media print {
+    tr.vendorListHeading {
+        background-color: #1a4567 !important;
+        -webkit-print-color-adjust: exact; 
+    }
+    .printDataTale  {
+    background-color:#000 !important ;
+    color: #fff !important ;
+}
+}
+
+@media print {
+    .vendorListHeading th {
+        color: white !important;
+    }
+    .printDataTale  {
+    background-color:#000 !important ;
+    color: #fff !important ;
+}
+}
+.print-page {
+    margin-top: 10px !important;
+    margin-right: 20px !important;
+    margin-left: 10px !important;
+    padding: 5px 10px;
+}
+
+.logo-section {
+    float: right;
+}
+
+.info-section {
+    float: left;
+    
+}
+.hr{
+    clear: both;
+}
+
+.print-table{
+    width: 100%;
+    
+}
+.print-page thead td{
+    border: 1px solid rgb(134, 134, 134) ;
+    padding: 5px; 
+    background-color: rgb(209, 199, 199)    !important;
+    color: #000;
+}
+
+.print-page td{
+    border: 1px solid rgb(209, 199, 199) ;
+    padding: 5px; 
+}
+
+.print-page tfoot td{
+    background-color:rgb(209, 199, 199) ;
+    color: #000;
+}
+.sing-section{
+    float: left;
+    border-bottom: 1px solid #333;
+}
+
